@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="tshirt.css" />
+    <title>ECO VISTA MALL.</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+
+    <div id="main">
+      <div id="nav">
+        <div id="nav-part1">
+          <div id="logo">
+            <img src="./images/logo.png" alt="" />
+          </div>
+        </div>
+
+        <div id="nav-part2">
+          <div id="links">
+            <a href="index.html">Home</a>
+            <a href="cloth.html">Clothes</a>
+          </div>
+          <div id="icons">
+            <i
+              onclick="window.location.href='index.html'"
+              class="ri-home-6-line"
+            ></i>
+            <i
+              onclick="window.location.href='cloth.html'"
+              class="ri-shirt-line"
+            ></i>
+            <i
+              onclick="window.location.href='cart.html'"
+              class="ri-shopping-cart-2-line"
+            ></i>
+            <i
+              onclick="window.location.href='login.html'"
+              class="ri-login-box-line"
+            ></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product Section -->
+
+      <section id="pdetails" class="section-p1">
+        <div class="parada-image">
+          <img src="./images/jacket.png" width="100%" id="MainImg" alt="" />
+          <div class="small-img-grp">
+            <!-- <div class="small-img-col">
+                        <img src="./images/bag.png" width="100%" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="./images//bag1.png" width="100%" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="./images/bag2.png" width="100%" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="./images/bag3.png" width="100%" class="small-img" alt="">
+                    </div> -->
+          </div>
+        </div>
+        <div class="parada-details">
+          <h6>Home / Jacket</h6>
+          <h4>Leather Jacket / Men's Fashion</h4>
+          <h2>$500.00</h2>
+          <select style="margin-top: 10px; margin-bottom: 5px">
+            <option>Select Size</option>
+            <option>Small</option>
+            <option>Medium</option>
+          </select>
+          <input
+            type="number"
+            value="1"
+            style="margin-top: 5px; margin-bottom: 5px; display: block"
+          />
+          <button
+            id="add-button"
+            onclick="window.location.href='pay.html'"
+            class="add-to-cart-btn"
+            style="
+              display: inline-block;
+              padding: 10px 20px;
+              font-size: 16px;
+              font-weight: bold;
+              text-align: center;
+              text-decoration: none;
+              background-color: #000;
+              color: #f7f7f7;
+              border: none;
+              border-radius: 5px;
+              cursor: pointer;
+              transition: background-color 0.3s ease;
+            "
+          >
+            Add to Cart
+          </button>
+          <h4>Product Details</h4>
+          <span>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+            sunt in autem tenetur ullam accusantium, numquam nemo sint cum
+            delectus soluta illum similique commodi eos laudantium corrupti est.
+            Quo voluptatum aliquid saepe perspiciatis. Ea voluptatum voluptate
+            accusantium? Sint velit nulla facere officia veniam quis eligendi.
+            Deleniti incidunt inventore nam harum?
+          </span>
+        </div>
+      </section>
+
+      <!-- Feauterd Section -->
+      <div class="sign">Feauterd Products</div>
+
+      <section id="product1">
+        <div class="pro-container">
+          <div class="pro" onclick="window.location.href='f1.html'">
+            <img src="./images/f3.jpg" alt="" />
+            <div class="des">
+              <span>Nike</span>
+              <h2>Nike Printed T-Shirts</h2>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>$150</h4>
+            </div>
+            <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+          </div>
+
+          <div class="pro" onclick="window.location.href='j2.html'">
+            <img src="./images/short1.webp" alt="" />
+            <div class="des">
+              <span>Bufello</span>
+              <h2>Bufello Blue Denim Jeans</h2>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>$110</h4>
+            </div>
+            <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+          </div>
+
+          <div class="pro" onclick="window.location.href='t1.html'">
+            <img src="./images/t1.jpg" alt="" />
+            <div class="des">
+              <span>Adidas</span>
+              <h2>Casual Seat T-Shirts</h2>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>$170</h4>
+            </div>
+            <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+          </div>
+
+          <div class="pro" onclick="window.location.href='s4.html'">
+            <img src="./images/s1.jpg" alt="" />
+            <div class="des">
+              <span>Nike</span>
+              <h2>Nike Air Jordan-1</h2>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>$520</h4>
+            </div>
+            <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <div class="sign"></div>
+      <footer id="page7">
+        <div>
+          <p>CONNECT WITH US</p>
+          <ul>
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>Twitter</li>
+            <li>LinkedIn</li>
+            <li>YouTube</li>
+          </ul>
+        </div>
+        <div>
+          <img src="./images/Picsart_23-11-20_18-45-49-578.png" alt="" />
+        </div>
+        <div>
+          <p>THE NITTY GRITTIES</p>
+          <ul>
+            <li>Good Things FAQs</li>
+            <li>Good Food FAQs</li>
+            <li>Good Places</li>
+            <li>Pathways</li>
+            <li>Careers</li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+
+    <script></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+      integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+      integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
